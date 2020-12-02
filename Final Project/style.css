@@ -63,8 +63,12 @@ a, .nav-primary a{
 	border-bottom: 1px dashed hsl(0, 0%, 90%);
 }
 
+.nav-primary a{
+	font-weight: bold;
+}
+
 a:hover, .nav-primary a:hover{
-	border-bottom: 1px dashed hsl(350, 50%, 50%);
+	border-bottom: 1px dashed hsl(350, 40%, 40%);
 	transition: all 1s ease;
 	color: hsl(350, 40%, 40%);
 
@@ -106,12 +110,37 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 10px;
 }
 
 .project h3{
 	margin-top: auto;
 	margin-bottom: 10px;
 
+}
+
+.moreinfo{
+	margin-top: 10px;
+}
+
+.moreinfo h3{
+	margin-top: 10px;
+}
+
+.moreinfo-des{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+
+}
+
+.clinks, .olinks{
+	padding: 10px;
+	text-align:center;
+}
+
+ul{
+	list-style: none;
 }
 
 /* about page */
@@ -136,11 +165,50 @@ main {
 	margin-bottom: 5px;
 }
 
+
+.passions{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.passion1 p{
+	text-align: center;
+}
+
+.passion1 .description{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.video{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.feed{
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.passion2 p{
+	text-align: center;
+}
+
+.passion2 .description{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
 .res-div p{
 	text-align: center;
 	margin-top:5px;
 }
-
 /* contact page */
 
 .page-contact h2{
@@ -166,6 +234,39 @@ address .contact-type{
 }
 
 .contact-form{
-	text-align:center;
 	width: 500px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+fieldset{
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+fieldset.gender{
+	text-align: center;
+}
+
+fieldset.gender label{
+	padding:0 5px;
+	margin: 0 5px;
+}
+
+fieldset.personal .item{
+	margin-bottom: 5px;
+}
+
+fieldset.personal label{
+	font-size: 90%;
+	color: #333;
+}
+
+fieldset.personal span{
+	font-size: 80%;
+	color: #333;
+}
+
+fieldset.personal .items{
+	margin-left: 5px;
 }
